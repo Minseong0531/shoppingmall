@@ -1,0 +1,182 @@
+img{  display:block;  }
+
+a{  text-decoration:none;   }
+
+ul{  list-style:none;  margin:0;  padding:0;  }
+
+.topbanner-img{
+
+  width:100%;  height:50px;  object-fit:cover;  object-position:center;
+
+}
+
+#main_header{
+
+  width:100%;  height:70px;  background-color:#fff;
+
+}
+
+#main_header>.innerbox{
+
+  width:100%;  max-width:1322px;  margin:0 auto;   height:70px;  display:flex;  align-items:center;
+
+}
+
+#main_header>.innerbox>h1{
+
+  width:30px;  height:30px;  margin-right:40px;
+
+}
+
+#main_header>.innerbox>h1 img{   display:block;  }
+
+#main_header>.innerbox>.main-navbar{  height:50px;   }
+
+#main_header>.innerbox>.main-navbar>ul{
+
+  display:flex;  height:50px;  line-height:50px;  gap:30px;  align-items:center;
+
+}
+
+#main_header>.innerbox>.main-navbar>ul>li>a{
+
+  display:block;  padding:0 6px;  font-size:15px;  font-weight:bold;  color:#222;
+
+}
+
+#main_header>.innerbox>.user-menu{
+
+  margin-left:auto;   display:flex;  gap:25px;
+
+}
+
+#main_header>.innerbox>.user-menu>a{  color:#222;  }
+
+#main_header>.innerbox>.user-menu>a:nth-child(1){
+
+  padding-right:20px;  border-right:2px solid #ddd;  
+
+}
+
+/*  src폴더에 images폴더 생성 , 배경그림 요소 붙여넣기  -- 모듈오류로 src내 직접 파일위치
+
+#main_header>.innerbox>.user-menu>a:nth-child(2){
+
+  display:block;  width:17px;  height:17px;  text-indent:-9999px;
+
+  background:url("./images/btn_header_search.gif") no-repeat;
+
+}
+
+#main_header>.innerbox>.user-menu>a:nth-child(3){
+
+  display:block;  width:17px;  height:17px;  text-indent:-9999px;
+
+  background:url("./images/ico_header_cart.gif") no-repeat;
+
+} */
+
+.sr_only{
+
+  position:absolute;  width:0;  height:0;  font-size:0;  line-height:0;  left:0;  top:0;   overflow:hidden;
+
+}
+
+
+.mainbanner-img{  width:100%;  min-width:1322px; }
+
+.mainbanner-img img{ width:100%;  height:auto; object-fit:cover; object-position:center; }
+
+
+.collection-wrapper{  width:1322px;  margin:45px auto 150px;  }
+
+.collection-wrapper > h2{  font-size:35px;  letter-spacing:7px;  margin:0;  margin-bottom:10px;  }
+
+.collection-wrapper > p{  font-size:16px;  margin:0;  margin-bottom:30px;   }
+
+.collection-wrapper > .innerbox{
+
+  display:flex;  justify-content:space-between;
+
+}
+
+.collection-wrapper > .innerbox > div{   width:640px;  height:706px;  }
+
+.collection-wrapper > .innerbox > .collection-images{
+
+  display:flex;  flex-wrap:wrap;  justify-content:space-between;  align-content:space-between;
+
+}
+
+
+.best-item{  width:1322px;  margin:45px auto 150px;  }
+
+.best-item > h2{  font-size:35px;  letter-spacing:7px;  margin:0;  margin-bottom:10px;  }
+
+.best-item > p{  font-size:16px;  margin:0;  margin-bottom:30px;   }
+
+.best-item .tabs{display: flex; margin-bottom: 40px; gap: 20px;}
+.best-item .tabs .tab-btn{
+  display: block; width: 100px; right: 50px; border:1px solid #ccc;
+  display: flex; justify-content: center; align-items: center; height: 40px;
+}
+
+.best-item .tab-panel { display: flex; gap: 20px;}
+
+.best-item .tab-panel .item-box{position: relative;}
+.best-item .tab-panel .item-box .best-rank {position: absolute; top: 0; left: 20px; background-color: #fff; padding: 12px; text-align: center; color: #333;}
+
+.best-item .tab-panel .item-box .item-title{ color: #333;}
+.best-item .tab-panel .item-box .item-review{border-bottom: 1px solid #ccc; padding-bottom: 12px; text-align: right; color: #333;}
+.best-item .tab-panel .item-box .item-price{font-size: 1.25rem; color: #333; font-weight: bold;}
+.best-item .tab-panel .item-box .item-price > .gray-text{text-decoration: line-through; color: #ccc;}
+
+
+.special-wrap{  width:1322px;  margin:45px auto 150px;  }
+.special-wrap > h2{  font-size:35px;  letter-spacing:7px;  margin:0;  margin-bottom:10px;  }
+.special-wrap > p{  font-size:16px;  margin:0;  margin-bottom:30px;   }
+
+.special-wrap .special-product > ul{ display: flex; justify-content: space-between; margin-top: 50px;}
+.special-wrap .special-product > ul .special-title{ color: #333;}
+.special-wrap .special-product > ul .special-review{border-bottom: 1px solid #ccc; padding-bottom: 12px; text-align: right; color: #333;}
+.special-wrap .special-product > ul .special-price{font-size: 1.25rem;}
+
+.interview-wrap{  width:1322px;  margin:45px auto 150px;  }
+.interview-wrap > h2{  font-size:35px;  letter-spacing:7px;  margin:0;  margin-bottom:10px;  }
+.interview-wrap > p{  font-size:16px;  margin:0;  margin-bottom:30px;   }
+.interview-wrap .content-wrap{display: flex; gap: 20px}
+.interview-wrap .content-wrap > div {border: 1px solid #ccc}
+
+
+.interview-wrap .content-wrap h3{display: flex; flex-direction: column; text-align: center;}
+.interview-wrap .content-wrap p {padding: 12px 48px; text-align: center;}
+
+
+.main-bottom > h2{  font-size:35px;  letter-spacing:7px;  margin:0;  margin-bottom:10px;  }
+.main-bottom > p{  font-size:16px;  margin:0;  margin-bottom:30px;   }
+
+.main-bottom > .content-bottom {width:1322px;  margin:45px auto 150px; display: flex; justify-content: space-between;}
+
+.main-bottom > .content-bottom > .bot1,
+.main-bottom > .content-bottom > .bot3{background-color: #aa9974;}
+
+#main-footer .footer-menu,
+#main-footer .innerbox {width:1322px;  margin:45px auto 50px;}
+
+#main-footer > .footer-top > .global { display: flex; gap: 20px;}
+#main-footer > .footer-top > .global > ul {display: flex; justify-content: center; align-items: center; gap: 20px;}
+#main-footer > .footer-top > .global {margin: 25px auto; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+
+
+#main-footer > .footer-top > .footer-menu > ul {display: flex; justify-content: space-between;} 
+#main-footer > .footer-top > .footer-menu > ul > li > .sub { display: flex; flex-flow: column; gap: 20px; margin-top: 20px;}
+#main-footer > .footer-top > .footer-menu > ul > li > .sub > li > a{color: #333;}
+
+#main-footer > .footer-bottom { border-top: 1px solid #ccc;}
+#main-footer > .footer-bottom > .innerbox {font-size: 12px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 0px;}
+#main-footer > .footer-bottom > .innerbox > ul {display: flex; gap: 20px;}
+#main-footer > .footer-bottom > .innerbox > ul > li > a{color: #333;}
+
+
+
+
