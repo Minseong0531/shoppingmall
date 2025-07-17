@@ -11,14 +11,14 @@ export const validateCartItem = (item) => {
 
 //개별 상품의 총 가격 계산 함수
 export const calculateItemTotal = (item) => {
-    const price = Number(item.discounPrice || item.price) || 0;
-    return price*(item.quantity || 1)
-}
+    const price = Number(item.discountPrice || item.price) || 0;
+    return price * (item.quantity || 1);
+};
 
 //장바구니 전체 상품 총 가격 계산 함수
 export const calculateCartTotal = (items) =>{
     // 리덕스( 리듀서로 전체 item호출, 계산)
-    if( !Array.isArray(items)){ return 0;} //배열인지 확인함수 Array.isArray(~)
+    if( !Array.isArray(items)) return 0;//배열인지 확인함수 Array.isArray(~)
     return items.reduce((total,item)=> total+calculateCartTotal(item), 0);
     //배열 데이터 요소 하나씩마다 누적 total 계산
 }

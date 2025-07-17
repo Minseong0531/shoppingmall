@@ -22,9 +22,9 @@ function Header(){
                     <Link to="/search">
                         <FontAwesomeIcon icon={faSearch} />
                         search</Link>
-                    <Link to="/basket">
+                    <Link to="/cart">
                         <FontAwesomeIcon icon={faShoppingCart} />
-                        basket</Link>
+                        cart</Link>
                 </nav>
             </div>
         </header>

@@ -56,7 +56,7 @@ function Footer(){
                     <ul>
                         {
                             footerMenu.map((menu,index)=>(
-                                <li key={menu.index}>
+                                <li key={index}>
                                     <span>{menu.title}</span>
                                     <ul className="sub">
                                         {
